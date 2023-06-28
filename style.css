@@ -1,9 +1,26 @@
-header{
-    background-color:rgb(162, 106, 189);
-color: white;
+*{
+    margin:0;
+    padding: 0;
 }
-  
+.cabeçalho {
+    background-color: rgb(180, 122, 235);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.cabeçalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.cabeçalho-imagem {
+    width: 10%;
+}
  
-
+.escola-imagem{
+    width: 15%;
+}
     
 
