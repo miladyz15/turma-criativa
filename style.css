@@ -4,7 +4,7 @@
 }
 .cabeçalho {
     background-color: rgb(180, 122, 235);
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,5 +22,12 @@
 .escola-imagem{
     width: 15%;
 }
-    
+  .escola {
+    background-image: linear-gradient(rgb(180, 122, 235),#ffffff);
+ color: rgb(0, 0, 0);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 24px 0;
+}  
 
